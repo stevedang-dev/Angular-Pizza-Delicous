@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-hero-full-size-image',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./hero-full-size-image.component.scss']
 })
 export class HeroFullSizeImageComponent implements OnInit {
-
+	@Input() logoMenu: any;
   constructor() { }
 
   ngOnInit() {

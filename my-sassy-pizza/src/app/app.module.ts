@@ -27,6 +27,8 @@ import { ArticleCardComponent } from './components/article-card/article-card.com
 import { AboutOurChefComponent } from './components/about-our-chef/about-our-chef.component';
 import { AboutOurChefCardComponent } from './components/about-our-chef-card/about-our-chef-card.component';
 import { ErrorPageComponent } from './templates/error-page/error-page.component';
+import { OurMenuCardContainerComponent } from './components/our-menu-card-container/our-menu-card-container.component';
+import { HotMealMenuComponent } from './components/hot-meal-menu/hot-meal-menu.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +55,9 @@ import { ErrorPageComponent } from './templates/error-page/error-page.component'
     ArticleCardComponent,
     AboutOurChefComponent,
     AboutOurChefCardComponent,
-    ErrorPageComponent
+    ErrorPageComponent,
+    OurMenuCardContainerComponent,
+    HotMealMenuComponent
   ],
   imports: [
     BrowserModule,
